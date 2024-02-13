@@ -8,7 +8,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 public class TestMesto {
-    String bearerToken = "сюда_впиши_свой_токен";
+    String bearerToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTc3NDEyMTQ0MDY3YjAwM2Q3NDk2YzMiLCJpYXQiOjE3MDc4NDI2MjIsImV4cCI6MTcwODQ0NzQyMn0._3XIkuNpRikaEqxDQ9QtnxQXNQaszbXTjdMlXPm8TQg";
 
         @Before
         public void setUp() {
